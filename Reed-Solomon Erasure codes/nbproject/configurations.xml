@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <in>galois.c</in>
+      <in>galois.h</in>
+      <in>gf_basic_tester.c</in>
+      <in>gf_div.c</in>
+      <in>gf_ilog.c</in>
+      <in>gf_inverse.c</in>
+      <in>gf_log.c</in>
+      <in>gf_mult.c</in>
+      <in>gf_xor.c</in>
+      <in>gf_xor_tester.c</in>
+      <in>multiply.c</in>
+      <in>rs_ec.c</in>
+      <in>rs_ec.h</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+      <itemPath>makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f makefile</buildCommand>
+          <cleanCommand>${MAKE} -f makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="galois.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="galois.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="gf_basic_tester.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="gf_div.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="gf_ilog.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="gf_inverse.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="gf_log.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="gf_mult.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="gf_xor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="gf_xor_tester.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="multiply.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rs_ec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rs_ec.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
